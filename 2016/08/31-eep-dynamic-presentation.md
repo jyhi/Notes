@@ -5,7 +5,7 @@ date: 2016-08-31
 categories: notes eep
 ---
 
-To make a presentation, you need several skills to make your presentation impressive to the audiences. Mr. Michelle gives us a presentation (not a lecture, as he said) about how to do this.
+To make a presentation, you need several skills to make your presentation impressive to the audiences. Mr. Michel gives us a presentation (not a lecture, as he said) about how to do this.
 
 ## 1. Voice Power
 
