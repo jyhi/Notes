@@ -39,11 +39,12 @@ categories: notes it
 Computer software:
 programs that give instructions to the hardware about what to do and how to do it
 
-Type: **Application software** and **system software**
-    - **System software:**
-        - aka **Operating System (OS)**
-        - Manages hardware
-        - Provides common services
+Type:
+- **Application software**
+- **System software**
+    - aka **Operating System (OS)**
+    - Manages hardware
+    - Provides common services
 
 ## Why's A Computer Powerful?
 
