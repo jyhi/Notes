@@ -73,10 +73,9 @@ The value of a digit in a number depends on:
 
 **1 Byte = 8 bits**
 
-| 0 | 0 | 1 | 0 | 0 | 1 | 1 | 1 |
-| :---------------------------- |
-| b7| b6| b5| b4| b3| b2| b1| b0|
-| **MSB**    |||||||    **LSB** |
+| **MSB** | 0 | 0 | 1 | 0 | 0 | 1 | 1 | 1 | **LSB** |
+| :------------------------------------------------ |
+|         | b7| b6| b5| b4| b3| b2| b1| b0|         |
 
 - **MSB: Most Significant Bit**
 - **LSB: Least Significant Bit**
@@ -113,7 +112,7 @@ The value of a digit in a number depends on:
 
 Thus,
 
-![Dec to r](http://latex.codecogs.com/svg.latex?(28)_10=(11100)_2=(1C)_16=(34)_8)
+![Dec to r](http://latex.codecogs.com/svg.latex?(28)_{10}=(11100)_2=(1C)_{16}=(34)_8)
 
 ## Conversions Between Power-of-2 Radices
 
