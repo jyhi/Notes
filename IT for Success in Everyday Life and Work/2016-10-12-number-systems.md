@@ -15,7 +15,7 @@ categories: notes it
 - complement:   补集
 - Hindu-arabic: 阿拉伯数字的
 
-> **BIT** = Binart digIT
+> **BIT** = Binary digIT
 
 ## Decimal Number System
 
@@ -46,7 +46,7 @@ categories: notes it
 - A byte is composed of 8 bits
 - **One byte can be expressed by 2 digits in Hexadecimal:**
 
-![Why Hex](https://latex.codecogs.com/svg.latex?(11101111)_2\rightarrow(EF)_h)
+![Why Hex](https://latex.codecogs.com/svg.latex?(11101111)_2\\rightarrow(EF)_h)
 
 ## Positional Number System
 
@@ -60,14 +60,14 @@ The value of a digit in a number depends on:
 - `r` symbols (?)
 - Value is based on the sum of a power series in powers of `r`:
 
-![Base `r` # Sys](http://latex.codecogs.com/svg.latex?(d_{n-1}d_{n-2}...d_0)=\sum_{i=0}^{n-1}d_i\times{r^i})
+![Base `r` # Sys](http://latex.codecogs.com/svg.latex?(d_{n-1}d_{n-2}...d_0)=\\sum_{i=0}^{n-1}d_i\\times{r^i})
 
 ## Octal Number System
 
 - 0 - 7
 - aka. **"base-8"**
 
-![Octal # Sys](http://latex.codecogs.com/svg.latex?N=(d_{n-1}d_{n-2}...d_0)_8=\sum_{i=0}^{n-1}d_i\times{8^i})
+![Octal # Sys](http://latex.codecogs.com/svg.latex?N=(d_{n-1}d_{n-2}...d_0)_8=\\sum_{i=0}^{n-1}d_i\\times{8^i})
 
 ## Bit & Byte
 
@@ -120,13 +120,13 @@ Thus,
 - A group of 4 bits is easily recognized as a Hexadecimal number;
 - A group of 3 bits is easily recognized as a Octal Number.
 
-![2a9fhex](http://latex.codecogs.com/svg.latex?(2A9F)_h=0010\ 1010\ 1001\ 1111)
+![2a9fhex](http://latex.codecogs.com/svg.latex?(2A9F)_h=0010\\ 1010\\ 1001\\ 1111)
 
-![4726oct](http://latex.codecogs.com/svg.latex?(4726)_8=100\ 111\ 010\ 110)
+![4726oct](http://latex.codecogs.com/svg.latex?(4726)_8=100\\ 111\\ 010\\ 110)
 
 **To convert 4726(OCT) into HEX, we just re-group the BIN value:**
 
-![4726oct2hexobin](http://latex.codecogs.com/svg.latex?(2A9F)_h=1001\ 1101\ 0110=(9D6)_h)
+![4726oct2hexobin](http://latex.codecogs.com/svg.latex?(2A9F)_h=1001\\ 1101\\ 0110=(9D6)_h)
 
 ## Rules of Binary Arithmetic
 
