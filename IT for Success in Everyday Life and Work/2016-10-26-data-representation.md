@@ -44,7 +44,11 @@ Decompose strings into characters. **The general approach is to assign each char
 - Designed for English
 - Use **8 bits** to represent a character
 
-![ASCII8BCHAR]()
+```
+ASCII: 00000000 (NUL)
+       ^~~~~~~~
+       Total: 2^8=256 characters can be represented
+```
 
 - Not enough for CJK (Chinese, Japanese, Korean)
 
@@ -64,3 +68,53 @@ Decompose strings into characters. **The general approach is to assign each char
     2. ... which makes it convenient to convert between Unicode and ASCII.
 
 ## Representing Audio Information
+
+- To digital a signal we periodically measure the voltage of the sigal and record the appropriate numeric value. This is called **sampling**.
+- In general, a sampling rate of ~40,000 times per second is enough to create a reasonable sound reproduction.
+- **MP3**: Moving Picture Experts Group audio layer 3
+    - Can store both lossy and loseless audio.
+
+## Representing Color
+
+**RGB Model** (Red, Green, Blue: **Primary Colors**)
+
+```
+ # RRGGBB
+   ^ ^ ^-  8 bits
+   | |---  8 bits
+   |-----  8 bits
+    Total 24 bits
+```
+
+Also in decimal. *e.g. `#D5F99F` -> (213, 249, 159)*
+
+### Color Depth
+
+- The number of bits that are used to represent a color
+    - **True Color**: 24 bits
+    - **HiColor**: 16 bits
+        - 3x5 (15) bits are used to represent primary colors
+        - 1 bit is used to represent transparency
+
+### Digitalizing Images and Graphics
+
+**Pixels**
+
+- Smallest unit of an image
+- Single color
+- Image information is stored on a pixel-by-pixel basis
+    - The color for each pixel is recorded
+
+#### Resolution
+
+- The number of pixels used to represent a picture
+- **Width x Height**
+- Determines how much detail an image contains
+
+## Representing Video
+
+- Video is a series of images displayed overtime
+- Each image is called a **frame**
+- Frame Per Second (**FPS**): Determines how smooth the video is
+- The resolution of each frame determines how sharp the video is
+- **Alomst all videos are encoded using lossy compression**
