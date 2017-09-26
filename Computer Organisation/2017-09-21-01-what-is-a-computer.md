@@ -21,7 +21,7 @@ A Turing Machine Consists of:
 
 ## The Church-Turing Thesis
 
-**All things that can be computed can be computer by a Turing Machine.**
+**All things that can be computed can be computed by a Turing Machine.**
 
 ## Universal Turing Machine (**UTM**)
 
@@ -44,4 +44,27 @@ Turing described a Turing machine that **could simulate all other Turing machine
   - Registers
 - Main Memory
 - I/O System
-- A single path between the main memory and CPU, called the **von Neumann bottleneck**
+- A single path between the main memory and CPU, called the [**von Neumann bottleneck**](#the-von-neumann-bottleneck)
+
+### Von Neumann Execution Cycle
+
+- aka **fetch-decode-execute** cycle
+  - The control unit **fetch the next instruction** from the memory
+  - The instruction is **decoded** into a language that the ALU understands
+  - **Data operands are fetched** from the memory into the registers inside CPU
+  - The ALU **executes** the instruction and places the result into the registers or memory
+
+### The von Neumann Bottleneck
+
+- CPU and memory are separate
+- All data and code are in the memory
+- CPU is usually faster than memory
+- CPU is forced to wait for needed data to be transferred to or from memory
+
+### The System Bus Model
+
+![System Bus Model](./img/system-bus-model.png)
+
+## Abstraction
+
+The process of forming a concept by identifying _common features_ among a group of individuals, or by _ignoring spatio-temporal(时空) aspects_ of these individuals.
