@@ -10,8 +10,7 @@ A linear equation in n unknowns x1, x2, x3, …, xn has the form
 
 where the coefficients a1, a2, a3, …, an and b are real numbers.
 
-## Linear System
-
+### Linear System
 
 ### Solutions
 
@@ -87,3 +86,53 @@ Not good:
 Try to make the matrix to the below form (**Strictly Triangular System**):
 
 ![Strictly Triangular System](https://latex.codecogs.com/svg.latex?\left[\begin{array}{cccc|c}1&1&1&1&6\\0&-1&-1&1&0\\0&0&-3&-2&-13\\0&0&0&-1&-2\end{array}\right])
+
+## 1.2 Row Echelon Form (梯阵式)
+
+A matrix is in echelon form if
+
+1. Any rows consisting entirely of zeros are grouped at the bottom of the matrix.
+2. The first nonzero element of each row is 1. This element is called a **leading 1**.
+3. The leading 1 of each row after the first is positioned to the right of the leading 1 of the previous row.
+
+(This implies that all the elements below a leading 1 are zero.)
+
+![Row Echelon Form](https://latex.codecogs.com/svg.latex?\begin{bmatrix}*&&*&&*\\0&&*&&*\\0&&0&&*\end{bmatrix})
+
+The process of using row operations to transform a linear system into one whose augmented matrix is in row echelon form is called **Gaussian elimination**.
+
+### Reduced Row Echelon Form (简约梯阵式)
+
+A matrix is in reduced row echelon form
+
+1. If the matrix is in row echelon form.
+2. If the first nonzero entry in each row is **the only nonzero entry in its column**.
+
+![Non-Reduced Echelon Form](https://latex.codecogs.com/svg.latex?\begin{bmatrix}1&&*&&*&&*\\0&&1&&*&&*\\0&&0&&0&&1\end{bmatrix}) -> ![Reduced Echelon Form](https://latex.codecogs.com/svg.latex?\begin{bmatrix}1&&0&&0&&*\\0&&1&&0&&*\\0&&0&&0&&1\end{bmatrix})
+
+The process of using elementary row operations to transform a matrix into reduced row echelon form is called **Gauss-Jordan reduction**. The reduced echelon form of a matrix is **unique**.
+
+### Solve a System using Gauss-Jordan Elimination
+
+1. Write the _augmented matrix_ of the system.
+2. Obtain an equivalent augmented matrix in _reduced echelon form_. Decide whether the system is consistent.
+  - If not, stop;
+  - Otherwise, go to the next step.
+3. Write the system of equations corresponding to the matrix obtained in step 2.
+4. State the _solution_ by expressing each basic variable in terms of the free variables and declare the free variables.
+
+### Underdetermined system
+
+The number of variables > The number of equations. Many solutions.
+
+- Using multiple parameters (`r`, `s`, ...) is okay
+
+### Overdetermined system
+
+The number of variables < The number of equations.
+
+### Homogeneous System of linear Equations
+
+A system of homogeneous linear equations that has more variables than equations has many solutions.
+
+e.g. ![Homogeneous System of linear Equations](https://latex.codecogs.com/svg.latex?\begin{cases}x_1+2x_2-5x_3=0\\-2x_1-3x_2+6x_3=0\end{cases})
