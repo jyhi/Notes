@@ -68,3 +68,21 @@ Turing described a Turing machine that **could simulate all other Turing machine
 ## Abstraction
 
 The process of forming a concept by identifying _common features_ among a group of individuals, or by _ignoring spatio-temporal(时空) aspects_ of these individuals.
+
+- Allows us to ignore the details and focus on a few concepts at a higher level
+- **Un-abstraction** is the ability to go from the abstraction back to the underlying details
+
+## Levels of Transformations
+
+- The program levels
+  1. **Problem**
+  2. **Algorithm** (_Software Design_)
+  3. **Program** (_Programming_)
+- The machine levels
+  4. **ISA** (_Compiling / Interpreting_) **(Interface between h/w and s/w)**
+  5. **Microarch** (_Processor Design_)
+  6. **Circuits** (_Logic / Circuit Design_)
+  7. **Devices** (Transistors) (_Processor Engineering / Fabrication_)
+  8. **Bits**
+
+Whatever can be done by hardware can also be done by software, and vice versa.
