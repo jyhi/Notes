@@ -18,7 +18,7 @@ On Linux, data types (typically) are using **LP64 (long and pointer are 64-bit)*
 
 And **`int` are all of 32-bit size (this is also dependent on implementations, in ILP64 (integer, long and pointer are 64-bit) model `int` is of 64-bit long)**
 
-So actually you will get `sizeof (int) == 4` and `sizeof (void *) == 8` on 64-bit systems.
+So actually you will get `sizeof (int) == 4` and `sizeof (void *) == 8` on 64-bit (Windowd, Linux and Unix (macOS) systems.
 
 - https://en.wikipedia.org/wiki/64-bit_computing#64-bit_data_models
 - http://www.unix.org/version2/whatsnew/lp64%5Fwp.html
