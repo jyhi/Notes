@@ -1,4 +1,4 @@
-# Lecture 1: Introduction
+# Lecture 1: C Programming Language
 
 ## Natural Languages
 
