@@ -11,7 +11,7 @@ _Abstract model of all computers_
 
 A Turing Machine Consists of:
 
-- A **type** divided into cells;
+- A **tape** divided into cells;
 - A **moving read / write head**
 - A **state register** storing the state of the Turing Machine
 - A **finite table of instruction** specifying what the machine does when reading the content of the current cell:
