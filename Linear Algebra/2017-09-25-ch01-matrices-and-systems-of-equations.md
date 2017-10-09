@@ -136,3 +136,90 @@ The number of variables < The number of equations.
 A system of homogeneous linear equations that has more variables than equations has many solutions.
 
 e.g. ![Homogeneous System of linear Equations](https://latex.codecogs.com/svg.latex?\begin{cases}x_1+2x_2-5x_3=0\\-2x_1-3x_2+6x_3=0\end{cases})
+
+## 1.3 & 1.4 Matrix Algebra
+
+### Equality
+
+Two matrices are equal if:
+
+- They are of the same size;
+- If their corresponding elements are equal.
+
+### Addition
+
+Let A and B be matrices of the same size:
+
+- Their sum `A + B` is the matrix obtained by **adding together the corresponding elements of A and B**.
+  - The matrix `A + B` will be of the same size as A and B.
+- If A and B are _not_ of the same size, they _cannot be added_, and we say that _the sum does not exist_.
+
+### Negation and Subtraction
+
+- The matrix `(-1)C` is written `–C` and is called **the negative of `C`**.
+- We now define subtraction in terms of _addition and scalar multiplication_.
+  - `A – B = A + (–1)B`
+
+### Multiplication
+
+Let `A` be a matrix and `c` be a scalar.
+
+- The scalar multiple of `A` by `c`, denoted `cA`, is the matrix obtained by multiplying every element of `A` by `c`.
+  - The matrix `cA` will be the same size as `A`.
+
+Let the **number of columns** in a matrix `A` be the **same** as the **number of rows** in a matrix `B`. The product `AB` then exists.
+
+![Multiplication](https://latex.codecogs.com/svg.latex?c_{ij}=\begin{bmatrix}a_{i1}&&a_{i2}&&\dots&&a_{in}\end{bmatrix}\begin{bmatrix}b_{1j}\\b_{2j}\\\vdots\\b_{nj}\end{bmatrix}=a_{i1}b_{1j}+a_{i2}b_{2j}+\dots+a_{in}b_{nj})
+
+**NOTE**: `AB` != `BA`
+
+#### Size of a Product Matrix
+
+If A is a `m * r` matrix and B is an `r * n` matrix:
+
+- Because A has `m` columns and B has `n` rows. Thus AB **exits**.
+- And AB will be a `m * n` matrix.
+
+### Algebraic Properties of Matrix Operations
+
+- Addition: ...
+- Multiplication: **NOT commutative (cannot change the order of matrices)**
+
+### **Caution**
+
+- **No cancellation laws**
+  - `AB = AC` **does not imply** `B = C`
+  - `PQ = O` **does not imply** `P = O` or `Q = O` (`O` is an all-0 matrix)
+
+### Transpose (转置) of a Matrix
+
+The transpose of a matrix `A`, denoted ![Transpose](https://latex.codecogs.com/svg.latex?A^T), is the matrix whose **columns are the rows** of the given matrix `A`.
+
+#### Properties of Transpose
+
+**Transpose of a product**: ![Transpose of a product](https://latex.codecogs.com/svg.latex?(AB)^T=B^TA^T) <!-- Broken on Atom -->
+
+### Symmetric Matrix
+
+A symmetric matrix is a matrix that is **equal to its transpose**.
+
+- If `A` and `B` are _symmetric matrices of the same size_, the product `C` is **also symmetric**.
+
+### The Inverse of a Matrix
+
+Let A be an `n * n` matrix.
+
+- If a matrix `B` can be found such that ![Inverse](https://latex.codecogs.com/svg.latex?AB=BA=I_n), then `A` is said to be **invertible** and **`B` is called the inverse** of `A`.
+- If such a matrix `B` does not exist, then `A` has no inverse (denote ![](https://latex.codecogs.com/svg.latex?B=A^{-1}), and ![](https://latex.codecogs.com/svg.latex?A^{-k}=(A^{-1})^k)). <!-- Broken on Atom -->
+
+**If a matrix has an inverse, that inverse is unique.**
+
+#### Why we need inverse?
+
+**Nonsingular = Invertible Matrices**
+
+- A square `n * n` matrix `A` is nonsingular (invertible) if there exists a matrix ![](https://latex.codecogs.com/svg.latex?A^{-1}) such that ![](https://latex.codecogs.com/svg.latex?AA^{-1}=A^{-1}A=I).
+- The matrix ![](https://latex.codecogs.com/svg.latex?A^{-1}), if it exists, is called **the inverse of `A`**.
+  - If `A` does not have an inverse (![](https://latex.codecogs.com/svg.latex?A^{-1}) does not exist), then `A` is singular (noninvertible).
+- Nonsingular matrix = _consistent_ linear system
+- Singular matrix = _inconsistent_ linear system
