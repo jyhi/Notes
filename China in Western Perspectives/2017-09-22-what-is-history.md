@@ -17,11 +17,10 @@
 - General definition
   - _Human history_
   - **History** encompasses all actions and thoughts by all **individuals** in all times and places on this planet.
-  - History is the sum of total of everything that has actually happened in _the past_.
+  - **History is the sum of total of everything that has actually happened _in the past_.**
+  - **History is the accounts of the past written by histroians _based on the surviving records_.**
 
 ![The Nature of History](./img/process-of-history.png)
-
-History is the accounts of the past written by histroians based on the surviving records.
 
 ## What are Surviving Records?
 
@@ -33,7 +32,7 @@ Surviving records provide evidence upon which historians rely in order to analyz
 ## The Past Is Not The Same As History
 
 - History **requires _evidence_**
-- Not only a description of what had happened, but also an attpemp to understand it
+- Not only a description of what had happened, but also an attempt to understand it
 
 ## "Father of History"
 
@@ -61,12 +60,14 @@ Surviving records provide evidence upon which historians rely in order to analyz
 ## What Historians Do?
 
 - Construct histrorical narratives by finding **cause-and-effect relationships** of the past events
-- ...
+- Using the **surviving records**
 
 ### Why they do so?
 
 - ...
 
-## The Functions of History
+## The Functions of History (Why we study it?)
 
-- ...
+1. History provides a standpoint for understanding
+2. History develops knowledge (gives us direction)
+3. History reduces the possibility of repeating the same mistake
