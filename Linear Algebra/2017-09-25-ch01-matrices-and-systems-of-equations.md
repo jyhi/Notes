@@ -223,3 +223,14 @@ Let A be an `n * n` matrix.
   - If `A` does not have an inverse (![](https://latex.codecogs.com/svg.latex?A^{-1}) does not exist), then `A` is singular (noninvertible).
 - Nonsingular matrix = _consistent_ linear system
 - Singular matrix = _inconsistent_ linear system
+
+#### Gauss-Jordan Elimination for finding the Inverse of a Matrix
+
+Let `A` be an `n * n` matrix.
+
+1. Adjoin the identity `n * n` matrix `I_n` to `A` to form the matrix **[A : In]**.
+2. Compute the reduced echelon form of **[A : I_n]**.
+  - If the reduced echelon form is of the type **[I_n : B]**, then `B` is the inverse of `A`.
+  - If the reduced echelon form is not of the type **[I_n : B]**, in that the first `n * n` submatrix is not `I_n`, then `A` has no inverse.
+
+An `n * n` matrix `A` is invertible if and only if its reduced echelon form is `I_n`.
