@@ -228,9 +228,15 @@ Let A be an `n * n` matrix.
 
 Let `A` be an `n * n` matrix.
 
-1. Adjoin the identity `n * n` matrix `I_n` to `A` to form the matrix **[A : In]**.
+1. Adjoin the identity `n * n` matrix `I_n` to `A` to form the matrix **[A : I_n]**.
 2. Compute the reduced echelon form of **[A : I_n]**.
   - If the reduced echelon form is of the type **[I_n : B]**, then `B` is the inverse of `A`.
   - If the reduced echelon form is not of the type **[I_n : B]**, in that the first `n * n` submatrix is not `I_n`, then `A` has no inverse.
 
 An `n * n` matrix `A` is invertible if and only if its reduced echelon form is `I_n`.
+
+## 1.5 Elementary Matrices
+
+- An elementary matrix is one that can be obtained from the identity matrix `I_n` through a single elementary row operation.
+
+...
