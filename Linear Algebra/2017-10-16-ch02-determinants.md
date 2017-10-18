@@ -22,3 +22,37 @@ Observe that the determinant of a 2 x 2 matrix is given by the difference of the
 The notation **det(A)** is also used for the determinant of A.
 
 ...
+
+## Properties of Determinants
+
+- det(A^T) = det(A)
+- If A has a row (column) of all 0, det(A) = 0
+- If any 2 rows (columns) of A are equal, det(A) = 0 **(since A is singular)**
+
+If an n*n matrix A = [a_{ij}] is upper triangular or lower triangular or diagonal, **det(A) = a11a22 ... ann (the product of the main diagonal elements)**
+
+**det(AB) = det(A) det(B)**. Proof in book.
+
+If A is nonsingular, then **det(A) ≠ 0** and ![](https://latex.codecogs.com/svg.latex?det[A^{-1}]=\frac{1}{det[A]})
+
+![](https://latex.codecogs.com/svg.latex?det[kA]=k^ndet[A]) (**k** is row number)
+
+### Row Operation I
+
+Two rows of A are interchanged, then
+
+        det(E_{ij}A) = -det(A)
+
+where E_{ij} is the elementary matrix that swaps rows i and j.
+
+### Row Operation II
+
+A row of A is multiplied by a nonzero constant. (**Constant \* det(A)**)
+
+![](https://latex.codecogs.com/svg.latex?det[EA]=\mathbf{a}det[A]) <!-- [] To Bypass Atom Link Breakage -->
+
+### Row Operation III
+
+A multiple of one row is added to another row. (**det(A) Not Changed**)
+
+![](https://latex.codecogs.com/svg.latex?det[EA]=det[A]) <!-- [] To Bypass Atom Link Breakage -->
