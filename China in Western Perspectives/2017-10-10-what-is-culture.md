@@ -1,10 +1,30 @@
 # What is Culture?
 
-"Complex whole which includes knowledge, belief, art, law, morals, custom, and any other **capabilities** acquired by man as a member of society."
+> **_Cultus_**
+>
+> -- Latin term: to till, to cultivate; by _Cicero (106 BCE - 43 BCE)_
+>
+> **_Cultura_**
+>
+> -- Italian term: cultivation of the soil and the tending of animals
+>
+> **_Couture -> Culture_**
+>
+> -- French term
+>
+> (Idea of cultivation changed from soil to human by 18ct.)
+>
+> "Complex whole which includes knowledge, belief, art, law, morals, custom, and any other **capabilities** acquired by man as a member of society."
+>
+> -- _Sir Edward Taylor (1832 - 1917)_ (The founder of Cultural Anthropology), defined in 1873.
 
-_Sir Edward Taylor (1832 - 1917)_ (The founder of Cultural Anthropology)
+- **Culture** is _a way of life_ and _a shared pattern of learned human behavior_ that being transmitted from generation to generation.
+- The set of learned behaviors and beliefs that people use to characterize and adapt tot a group ofr the society.
 
-Defined in 1873.
+## Why Learn Culture?
+
+- To be a member of the society
+- Appreciation and the cultivation of good manners
 
 ## Six Characters of Culture
 
@@ -29,3 +49,5 @@ Defined in 1873.
 - **Dominant Culture** (more powerful)
 - **Subcultures**
 - **Counter-culture**
+
+## Culture, Custom, Tradition: Relationship?
