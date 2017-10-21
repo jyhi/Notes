@@ -41,7 +41,7 @@ If A is nonsingular, then **det(A) ≠ 0** and ![](https://latex.codecogs.com/sv
 
 Two rows of A are interchanged, then
 
-        det(E_{ij}A) = -det(A)
+![](https://latex.codecogs.com/svg.latex?det[E_{ij}]A=-det[A]) <!-- [] To Bypass Atom Link Breakage -->
 
 where E_{ij} is the elementary matrix that swaps rows i and j.
 
