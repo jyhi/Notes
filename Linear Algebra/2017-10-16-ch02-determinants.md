@@ -23,7 +23,7 @@ The notation **det(A)** is also used for the determinant of A.
 
 ...
 
-## Properties of Determinants
+## 2.2 Properties of Determinants
 
 - det(A^T) = det(A)
 - If A has a row (column) of all 0, det(A) = 0
