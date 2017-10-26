@@ -50,3 +50,17 @@ z is **Carry-In**.
 ![Ripple-Carry Adder](./img/ripple-carry-adder.png)
 
 **Very slow.**
+
+## Decoder
+
+- A decoder uses the inputs and their respective values to select one specific output line.
+- All memory addresses in a computer are specified as binary numbers.
+  - When a memory address is referenced (whether for reading or for writing), the computer first has to determine the actual address.
+
+## Multiplexer
+
+- A multiplexer behaves like a **channel selector**
+- The particular input chosen for output is determined by the value of the multiplexer's control lines.
+- To be able to select among n inputs, **log_2^n** control lines are needed
+
+## Combination Circuit Synthesis
