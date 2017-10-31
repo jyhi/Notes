@@ -5,9 +5,8 @@ What do mean by "Chinese" from the Neolithic to te Bronze Age of China?
 - **Optimistic humanism** about the human condition:
   - An emphasis on the **impersonality** in the religion of ancestor whrship that stressed the continuity of the lineage.
 
-## Neolithic Culture
+## 5000 BCE - 3000 BCE: Neolithic Culture
 
-- 5000 BCE - 3000 BCE
 - **Yangshao Culture**
   - Began farming millet (谷) along the Yellow River
   - Built houses at Banpo Village, Xi'an, Shaanxi
@@ -19,11 +18,16 @@ What do mean by "Chinese" from the Neolithic to te Bronze Age of China?
   - Developed the painted pottery (陶器) wheels
   - Burial practices using pots
 
-## China's First Civilization: **Longshan**
+## 3000 BCE - 2000 BCE in Shandong: China's First Civilization: **Longshan**
 
-- 3000 BCE - 2000 BCE in Shandong:
-  - Built huge and thick walls
-  - Made fine _black pottery_
-  - Longshan gravesites (墓地)
-    - Longshan has **social classes** (graves in different sizes)
-    - Believed in an **afterlife** (jade, etc buried along)
+- Built huge and thick walls
+- Made fine _black pottery_
+- Longshan gravesites (墓地)
+  - Longshan has **social classes** (graves in different sizes)
+  - Believed in an **afterlife** (jade, etc buried along)
+
+## 2200 BCE - 7750 BCE: Xia
+
+## 1500 BCE - 1045 BCE: Shang
+
+- First recorded dynasty
