@@ -22,3 +22,5 @@ A system is a finite state machine if it has the following five properties:
 - An arc represents a transition to a different state, with the inputs indicated on the label
 
 ![State Diagram Example](./img/state-diagram-example.png)
+
+## Computer as a FSM
