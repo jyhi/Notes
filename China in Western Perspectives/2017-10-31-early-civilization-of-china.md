@@ -31,3 +31,14 @@ What do mean by "Chinese" from the Neolithic to te Bronze Age of China?
 ## 1500 BCE - 1045 BCE: Shang
 
 - First recorded dynasty
+- Inventions
+  - Silk
+  - Oracle Bones
+  - ...
+
+### Social System of Shang
+
+- **Hierarchical** society
+  1. King
+  2. Elite Clans
+  3. Slaves and servants
