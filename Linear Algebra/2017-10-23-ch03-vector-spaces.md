@@ -12,3 +12,9 @@ Let **V** be a set of objects on which addition and scalar multiplication are de
 We call a__u__ +b__v__ + c__w__ a linear combination of the vectors __u__, __v__, and __w__.
 
 ## Column Vectors
+
+...
+
+# 3.2 Subspaces
+
+A subset S of **R^n** is a subspace if it is closed under addition and under scalar multiplication.
