@@ -29,7 +29,7 @@ The notation **det(A)** is also used for the determinant of A.
 - If A has a row (column) of all 0, det(A) = 0
 - If any 2 rows (columns) of A are equal, det(A) = 0 **(since A is singular)**
 
-If an n*n matrix A = [a_{ij}] is upper triangular or lower triangular or diagonal, **det(A) = a11a22 ... ann (the product of the main diagonal elements)**
+If an `n * n` matrix A = [a_{ij}] is upper triangular or lower triangular or diagonal, **det(A) = a11a22 ... ann (the product of the main diagonal elements)**
 
 **det(AB) = det(A) det(B)**. Proof in book.
 
