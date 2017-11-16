@@ -31,3 +31,17 @@
 #### Kernel
 
 ![](./img/linear-trans-theorem-3-kernel.png)
+
+## 4.2 Matrix Representations for Linear Transformations
+
+### Theorem
+
+![](./img/linear-trans-matrix-representation-theorem.png)
+
+![](./img/linear-trans-matrix-representation-theorem-1.png)
+
+![](./img/linear-trans-matrix-representation-theorem-2.png)
+
+### Corollary
+
+![](./img/linear-trans-matrix-representation-corollary.png)
