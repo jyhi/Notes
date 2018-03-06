@@ -122,3 +122,28 @@ Tuples may be stored in an arbitrary order.
 [cproduct-definition]: https://latex.codecogs.com/svg.latex?{r}\times{s}=\{tq|{t}\in{r}\text{~and~}{q}\in{s}\}
 
 #### Rename Operation
+
+- Notation: ![rename-notation]
+- Allows us to name, and therefore to refer to, the results of relational-algebra expressions
+  - Returns the **expression _E_ under the name _x_**
+
+[rename-notation]: https://latex.codecogs.com/svg.latex?{\rho}_x(E)
+
+## Additional Relational-Algebra-Operations
+
+### Natural Join Operation
+
+- Notation: ![natural-join-notation]
+- The result is:
+  - Consider each pair of tuples _tr_ from _t_ and _ts_ from _s_,
+  - If _tr_ has the same value as _ts_, add tuple _t_ to the result, where
+    - _t_ has the same value as _tr_ on _r_
+    - _t_ has the same value as _ts_ on _s_
+
+[natural-join-notation]: https://latex.codecogs.com/svg.latex?\Join
+
+### Divition Operation
+
+- Notation: ![division-notation]
+
+[divition-notation]: https://latex.codecogs.com/svg.latex?\div
