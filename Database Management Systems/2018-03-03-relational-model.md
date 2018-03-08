@@ -60,15 +60,12 @@ Tuples may be stored in an arbitrary order.
 
 ## Fundamental Relational-Algebra-Operations
 
-### Rational Algebra
-
-- Six basic operators:
-  - **Select**: ![Sigma](https://latex.codecogs.com/svg.latex?\sigma)
-  - **Project**: ![Capital Pi](https://latex.codecogs.com/svg.latex?\Pi)
-  - **Union**: ![Cup](https://latex.codecogs.com/svg.latex?\cup)
-  - **Set Difference**: ![Minus](https://latex.codecogs.com/svg.latex?-)
-  - **Cartesian Product**: ![Times](https://latex.codecogs.com/svg.latex?\times)
-  - **Rename**: ![Rho](https://latex.codecogs.com/svg.latex?\rho)
+- **Select**
+- **Project**
+- **Union**
+- **Set Difference**
+- **Cartesian Product**
+- **Rename**
 
 #### Select Operation
 
@@ -131,6 +128,21 @@ Tuples may be stored in an arbitrary order.
 
 ## Additional Relational-Algebra-Operations
 
+- **Set Intersection**
+- **Natural Join**
+- **Division**
+- **Assignment**
+
+### Set Intersection Operation
+
+- Notation: ![set-intersection-notation]
+- Definition: ![set-intersection-definition]
+- ![set-intersection-note]
+
+[set-intersection-notation]: https://latex.codecogs.com/svg.latex?\cap
+[set-intersection-definition]: https://latex.codecogs.com/svg.latex?{r}\cap{s}=\{t|{t}\in{r}\text{~and~}{t}\in{s}\}
+[set-intersection-note]: https://latex.codecogs.com/svg.latex?{r}\cap{s}=r-(r-s)
+
 ### Natural Join Operation
 
 - Notation: ![natural-join-notation]
@@ -147,3 +159,86 @@ Tuples may be stored in an arbitrary order.
 - Notation: ![division-notation]
 
 [divition-notation]: https://latex.codecogs.com/svg.latex?\div
+
+### Assignment Operation
+
+- Notation: ![assignment-notation]
+
+[assignment-notation]: https://latex.codecogs.com/svg.latex?\leftarrow
+
+## Extended Relational-Algebra-Operations
+
+- **Generalized Projection**
+- **Aggregate Functions**
+- **Outer Join**
+
+### Generalized Projection
+
+- Notation: ![general-proj-notation]
+  - _E_ is any relational-algebra expression
+  - Each of _F1, F2, ..., Fn_ are arithmetic expressions involving constants and attributes in the schema of _E_
+
+[general-proj-notation]: https://latex.codecogs.com/svg.latex?{\Pi}_{F_1,F_2,\cdots,F_n}(E)
+
+### Aggregate Functions
+
+- Aggregation function takes a collection of values and returns a single value as a result. **Duplicates are not eliminated.**
+- Notation: ![aggregate-notation]
+  - _E_ is any relational-algebra expression
+  - _G1, G2, ..., Gn_ is a list of attributes on which to group (can be empty)
+  - Each _Fi_ is an aggregate function
+    - **avg**
+    - **min**
+    - **max**
+    - **sum**
+    - **count**
+  - Each _Ai_ is an attribute name
+
+[aggregate-notation]: https://latex.codecogs.com/svg.latex?_{G_1,G_2,\cdots,G_n}{\varrho}_{F_1(A_1),F_2(A_2),\cdots,F_n(A_n)}(E)
+
+### Outer Join
+
+- Notation:
+  - Left Outer Join: <!-- ![left-outer-join-notation] -->
+  - Right Outer Join: <!-- ![right-outer-join-notation] -->
+  - Full Outer Join: <!-- ![full-outer-join-notation] -->
+
+<!-- Help me... -->
+
+<!-- [left-outer-join-notation]:  -->
+<!-- [right-outer-join-notation]: -->
+<!-- [full-outer-join-notation]:  -->
+
+## Null Values
+
+- Notation: _null_
+- An unknown value
+- **The result of any arithmetic exoression involving _null_ is _null_**
+- **Aggregate functions simply ignore null values (as in SQL) _except count_**
+- **Two _null_ s are considered the same (as in SQL)**
+
+### Comparison
+
+Comparisons with null values return the special truth value: _unknown_
+
+- (_unknown_ OR _true_) = **_true_**
+- (_unknown_ OR _false_) = _unknown_
+- (_unknown_ OR _unknown_) = _unknown_
+- (_unknown_ AND _true_) = _unknown_
+- (_unknown_ AND _false_) = **_false_**
+- (_unknown_ AND _unknown_) = _unknown_
+- (NOT _unknown_) = _unknown_
+
+In SQL **P is _unknown_** evaluates to **_true_** if predicate _P_ evaluates to _unknown_
+
+Result of select predicate is treated as _false_ if evaluates to _unknown_
+
+## Modification of The Database
+
+- **Deletion**: ![deletion]
+- **Insertion**: ![insertion]
+- **Updating** ![updating]
+
+[deletion]: https://latex.codecogs.com/svg.latex?{r}\leftarrow{r-E}
+[insertion]: https://latex.codecogs.com/svg.latex?{r}\leftarrow{r}\cup{E}
+[updating]: https://latex.codecogs.com/svg.latex?\Pi_{F_1,F_2,\cdots,F_n}(r)
