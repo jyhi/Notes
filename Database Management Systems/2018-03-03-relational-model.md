@@ -154,11 +154,11 @@ Tuples may be stored in an arbitrary order.
 
 [natural-join-notation]: https://latex.codecogs.com/svg.latex?\Join
 
-### Divition Operation
+### Division Operation
 
 - Notation: ![division-notation]
 
-[divition-notation]: https://latex.codecogs.com/svg.latex?\div
+[division-notation]: https://latex.codecogs.com/svg.latex?\div
 
 ### Assignment Operation
 
