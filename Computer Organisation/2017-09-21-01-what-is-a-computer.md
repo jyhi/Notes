@@ -3,7 +3,7 @@
 ## Definition of Computer
 
 - A modern computer is an **electronic, digital, general purpose** computing machine that automatically follows a **step-by-step list of instructions** for solving a problem.
-- This step-by-step list of instructions taht a computer follows is also called a **computer program**.
+- This step-by-step list of instructions that a computer follows is also called a **computer program**.
 
 ## The Turing Machine
 
