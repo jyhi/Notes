@@ -157,6 +157,7 @@ Tuples may be stored in an arbitrary order.
 ### Division Operation
 
 - Notation: ![division-notation]
+- Whenever _"all"_ is involved, try division first
 
 [division-notation]: https://latex.codecogs.com/svg.latex?\div
 
