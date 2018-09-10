@@ -8,12 +8,20 @@
 ## Algorithms
 
 - Supervised（有监督学习）
+  - Have training data
 - Unsupervised（无监督学习）
+  - Do not have training data
 
 ### Supervised Learning
 
-- Learn from given data ("right answers")
-- Derive a function (**hypothesis**)
+- _Learn from given data ("right answers")_
+- Derive a function (hypothesis)
 - Predict a value from parameters (**regression**)
 - ... or, do **classification** (output discreate values, 0 or 1)
-- **Cost** is the distance between data points and the hypothesis
+- _Cost_ is the distance between data points and the hypothesis
+
+### Unsupervised Learning
+
+- _Cluster_
+  - Increase **Inter-distance**
+  - Decrease **Intra-distance**
