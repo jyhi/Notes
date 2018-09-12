@@ -81,3 +81,14 @@ Files are abstracted (faked).
 ## Caching
 
 - Make things faster
+
+## Protection and Security
+
+- **Protection**: any mechanism for controlling access of processes or users to resources defined by the OS
+- **Security**: defense of the system against internal and external attacks
+
+## Virtualization
+
+- Allows operating systems to run applications within other OSes
+- **Emulation**: Generally slow
+- **Virtualization**: Host - Guest, **Virtual Machine Manager (VMM)** provides virtualization
