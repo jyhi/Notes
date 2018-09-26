@@ -35,3 +35,29 @@ In Chapter 4!
 ## Context Switch
 
 ![](./img/context-switch-silde.png)
+
+## Process Creation
+
+- **Parent** process creates **children** processes, forming a **tree**
+- Processes are identified and managed via **process identifier (PID)**
+- Resource sharing options
+  1. Parent and children share all resources
+  2. Children share subset of parent's resources
+  3. Parent and child share no resources
+- Execution options
+  1. Parent and children execute concurrently
+  2. Parent waits until children terminate
+
+On UNIX:
+
+1. `fork()` syscall creating a new process
+2. `exec()` syscall replacing the process' memory space
+3. `wait()` syscall for the parent to wait the children
+
+## Process Termination
+
+- `exit()` ask the operating system to delete it
+- `abort()` for rare things
+- **Cascading termination**
+- If no parent is waiting and the child dies, the child process becomes a **zombie**
+- If parent terminated without involking `wait`, the child process becomes an **orphan**
