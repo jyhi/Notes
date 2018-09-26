@@ -161,3 +161,24 @@ Quantifiers have higher precedence than all logical connectives.
 
 - A sequence of one or more quantifiers where one is inside the scope of another
   - e.g. `\forall{x} \forall{y} (x + y = 0)`
+
+# Lecture 4: Logic and Proof: Proofs
+
+## Rules of Inference
+
+- **Modus ponens (分离规则 / 肯定前件)**
+  - `[p && (p -> q)] |- q`
+- **Modus tollens (分离规则 / 否定后件)**
+  - `[!q && (p -> q)] |- !p`
+- **Hypothetical syllogism (假说演绎推理 / 假言三段论)**
+  - `[(p -> q) && (q -> r)] |- (p -> r)`
+- **Disjunctive syllogism (假说演绎推理 / 析取三段论)**
+  - `[(p || q) && !p] |- q`
+- **Addition**
+  - `p |- (p || q)`
+- **Simplification**
+  - `p && q |- p`
+- **Conjunction**
+  - `(p) && (q) |- p && q`
+- **Resolution**
+  - `(p || q) && (!p || r) |- q || r`
