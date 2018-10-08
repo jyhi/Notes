@@ -94,3 +94,21 @@ On UNIX:
 - Zero capacity
 - Bounded capacity
 - Unbounded capacity
+
+## Pipes
+
+- **Ordinary pipes**
+  - Uni-directional
+  - Require parent-child relationship between communicating processes
+- **Named pipes**
+  - Several processes can use the named pipe for communication
+
+## Sockets
+
+An endpoint for communication
+
+## Remote Procedure Calls (RPC)
+
+- **Stubs (Proxies)**
+- **Marshall**: Conversion between _Big-Endian_ and _Little-Endian_
+- OS typically provides a **matchmaker** service providing a way for the client to choose services to be run
