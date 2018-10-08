@@ -61,3 +61,36 @@ On UNIX:
 - **Cascading termination**
 - If no parent is waiting and the child dies, the child process becomes a **zombie**
 - If parent terminated without involking `wait`, the child process becomes an **orphan**
+
+## Interprocess Communication
+
+- **Shared memory**
+- **Message passing**
+  - **Direct communication**
+    - Process must name each other explicitly
+      - `send(P, msg)` / `receive(Q, msg)`
+    - Links are established automatically
+    - A link is associated with **exactly one pair of processes**
+    - Between each pair there exists **exactly one link**
+    - Bi-directional, may be unidirectional
+  - **Indirect communication**
+    - Messages are directed and received from _mailboxes (aka ports)_
+      - Each mailbox has a unique id
+      - Processes can communicate only if they share a mailbox
+      - `send(A, msg)` / `receive(A, msg)`
+    - Link established only if processes share a common mailbox
+    - A link may be associated with **many processes**
+    - Each pair of processes **may share several communication links**
+    - Link may be unidirectional or bi-directional
+
+## Synchronization
+
+- **Blocking** is considered **synchronous**
+- **Non-blocking** is considered **asynchronous**
+- If both send and receive are blocking, we have a **rendezvous**
+
+## Buffering
+
+- Zero capacity
+- Bounded capacity
+- Unbounded capacity
