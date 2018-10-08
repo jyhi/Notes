@@ -51,3 +51,21 @@ Note:
   - Often faster than gradient descent
 - Cons
   - Complex
+
+```m
+function [jVal, gradient] = costFunction(theta)
+  jVal        = % J(\theta)
+  gradient    = zeros(2, 1);
+  gradient(1) = % diff(J, \theta_0)
+  gradient(2) = % diff(J, \theta_1)
+endfunction
+
+options = optimset('GrandObj', 'on', 'MaxIter', '100');
+initialTheta = zeros(2, 1);
+
+[optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);
+```
+
+## Multi-Class Classification
+
+...
