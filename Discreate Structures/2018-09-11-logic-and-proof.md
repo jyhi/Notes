@@ -182,3 +182,56 @@ Quantifiers have higher precedence than all logical connectives.
   - `(p) && (q) |- p && q`
 - **Resolution**
   - `(p || q) && (!p || r) |- q || r`
+
+## Some Terms
+
+- Hypothesis
+- Premise and conclusion
+- Valid argument
+- Invalid argument
+- Rules of inferences
+  - Relatively valid simple argument form
+- Fallacy (谬论)
+  - Resemble rules of inference but based on contingency (certain percentage) rather than tautology (100% true)
+
+## Rules of Inference for Quantifiers
+
+- **Universal instantiation(实例化)**
+  - `For all x, P(x) |- P(c)`
+- **Universal generalization(归纳)**
+  - `P(c) for any c |- For all x, P(x) is true`
+- **Existential instantiation**
+  - `Exists x, P(x) |- P(c)`
+- **Existential generalization**
+  - `P(c) for some c |- Exists x, P(x)`
+
+## Introduction to Proofs
+
+- A **proof** is a valid argument that establishes the truth of a mathematical statement
+- A **theorem** is a statement that can be shown to be true
+  - Important statement: _theorem_
+  - Less important statement: _proposition, lemma_
+  - _Corollary_ (推论)
+- A proof is used to prove a theorem
+- **Axiom (公理)**
+- **Conjecture (推测)**
+
+## Methods to Proof
+
+- **Direct proof**: `P |- Q`
+- Indirect proof
+  - **Proof by contraposition**: `!Q |- !P`
+  - **Proof by contradiction**: `!Q && P |- False`
+
+...
+
+- **Proof by cases**
+  - Considering different cases
+  - Examine all possibilities
+- **Existence proof**
+  - Constructive proof
+  - Non-constructive proof
+- **Uniqueness proof** (\exists_1)
+  - We must prove 2 things
+    1. Existence
+    2. Uniqueness
