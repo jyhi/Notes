@@ -235,3 +235,26 @@ Quantifiers have higher precedence than all logical connectives.
   - We must prove 2 things
     1. Existence
     2. Uniqueness
+
+### Some Strategies
+
+- Forward / Backward reasoning
+- Looking for counter-examples
+  - Usually used when to show that some statements are false
+- Induction (see below)
+- Some special strategies (? Example 22 on book page 105 - 106)
+
+### Induction (归纳推理)
+
+When we want to prove `\forall n P(n)`:
+
+1. **Basic step**: Show `P(1)` is true.
+2. **Induction hypothesis**: Assume `P(2), P(3), ..., P(k)` are all true.
+3. **Inductive step**: Show `P(k) -> P(k + 1)`.
+4. Then, `P(n)` must be true for all `n`.
+
+Sometimes, we need to prove in this way:
+
+1. **Basic step**: Show `P(0)`, `P(1)` are true.
+2. **Induction hypothesis**: Assume `P(2), P(3), ..., P(k)` are all true.
+3. **Inductive step**: Show `P(k - 1) && P(k) -> P(k + 1)`
