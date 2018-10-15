@@ -45,3 +45,17 @@ Process creation is heavy-weight while thread creation is light-weight.
 - Many-to-one (seldom used)
 - One-to-one
 - Many-to-many
+
+`fork()` Schematics:
+
+- Does `fork()` duplicate only the calling thread or all threads?
+  - Some UNIXes have two versions of fork
+
+## Thread-Local Storage (TLS)
+
+- Useful when you do not have control over the thread creation process
+- Different from local variables
+  - Local variables visible only during single function invocation
+  - TLS visible across function invocations
+- Similar to `static` data
+  - TLS is unique to each thread
