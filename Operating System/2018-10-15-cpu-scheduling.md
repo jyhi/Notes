@@ -62,3 +62,48 @@ _When threads supported by kernel, threads scheduled, not processes_
 Intel calls it **hyperthreading**.
 
 ![Hyperthreading](./img/hyperthreading.png)
+
+## Load Balancing
+
+- **Push migration**: push task from overloaded processors to idle ones
+- **Pull migration**: idle processors pull waiting tasks from busy processor
+
+## Processor Affinity
+
+- Moving thread from one core to another loses cache
+- **Soft affinity**: the kernel attempts to keep a thread running on the same processor
+  - ... but no guarantees
+- **Hard affinity**: allows a process to **specify** a set of processors it runs on
+
+## NUMA And CPU Scheduling
+
+If the operating system is NUMA-aware, it will **assign memory closest to the CPU the thread is running on**.
+
+- otherwise, it is slow to access the memory!
+
+## Real-Time CPU Scheduling
+
+- **Soft RT**: critical tasks have the highest priority, but without guarantee
+- **Hard RT**: task must be serviced by its deadline
+
+There are 2 types of latencies that affect the response time:
+
+1. Interrupt latency: arrival of interrupt -> start ISR
+2. Dispatch latency: scheduler decide process to switch -> the process switched
+
+## Rate Monotonic Scheduling
+
+NG.
+
+## Earliest Deadline First (EDF) Scheduling
+
+- The earlier the the deadline, the higher the priority
+- The later the deadline, the lower the priority
+
+![EDF](./img/earliest-deadline-first-scheduling.png)
+
+## Propotional Share Scheduling
+
+- `T` shares are allocated among all processes in the system
+- An application receives `N` shares where `N < T`
+- This ensures each application will receive `N / T` of the total processor time
