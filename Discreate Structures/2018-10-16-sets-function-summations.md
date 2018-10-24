@@ -121,4 +121,7 @@ If `y = f(x)`, then
 
 ## Sequences and Summations
 
-**Sequences** are **ordered lists** of elements.
+- **Sequences** are **ordered lists** of elements.
+- **Summation** is the value of the sum of the terms of a sequence
+
+TODO
