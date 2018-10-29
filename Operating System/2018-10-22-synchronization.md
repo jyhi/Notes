@@ -238,3 +238,114 @@ void signal(int *s) {
   - No bounded waiting, with busy waiting
 - **Binary Semaphore**
   - The same as _mutex lock_
+
+### Semaphore Implementation With No Busy Waiting
+
+Makes use of 2 kernel system calls:
+
+- `block()`: place a process in scheduler waiting queue
+- `wake()`: take a process from waiting queue to the CPU ready queue
+
+Providing:
+
+- Mutual Exclusion: `wait()` is actually `test_and_set()`
+- Progress
+- Bounded Waiting
+
+No Busy-Waiting.
+
+## Deadlock And Starvation
+
+- **Deadlock** is 2 or more processes are waiting indefinitely for entrance of critical section
+- **Starvation** is a process never being removed from the semaphore queue
+- The programmer must guarantee the use of semaphores correct!
+
+## Monitors
+
+- An **ADT** providing convenient and efficient mechanism for process synchronization
+- Only one process may be active within a monitor
+  1. Shared variable(s)
+    - Queues attached
+  2. Constructor
+  3. Procedure(s)
+  4. Global queue (optional)
+
+![Monitor](./img/monitor.png)
+
+# Chapter 7: Synchronization Examples
+
+## Bounded Buffer Problem
+
+- A shared buffer that can contain `n` items / messages
+- 2 Processes: a _producer_ and a _consumer_
+- 3 Semaphores:
+  - `full := 0`: **how many items** in the buffer
+  - `empty := n`: **how many empty entries** in the buffer
+  - `mutex := 1`: **lock** of buffer (necessary to prevent race condition)
+  - `full + empty == n`
+
+### Producer
+
+```c
+do {
+  wait(empty);   // Wait for an empty entry (keep waiting if there's no) (empty--)
+  wait(mutex);   // If there is any, lock the buffer
+
+  // [Add an item to the buffer]
+
+  signal(mutex); // Unlock the buffer
+  signal(full);  // full++
+} while (true);
+```
+
+### Consumer
+
+```c
+do {
+  wait(full);    // Wait for an available item (keep waiting if there's no) (full--)
+  wait(mutex);   // If there is any, lock the buffer
+
+  // [Remove an item from the buffer]
+
+  signal(mutex); // Unlock the buffer
+  signal(empty); // empty++
+} while (true);
+```
+
+## Readers-Writers Problem
+
+- A data set shared among several concurrent processes
+  - **Readers** only reads data
+  - **Writers** can read and write
+- Integer `read_count := 0`: number of currently reading readers
+- Semaphores:
+  - `rw_mutex := 1`: number of allowed writers
+  - `mutex := 1`: protect `read_count`
+    - _Only 1 reader can change `read_count` at a time!_
+
+### Writer
+
+```c
+do {
+  wait(rw_mutex);   // Waits until no reader is reading
+
+  // [Write data]
+
+  signal(rw_mutex); // Release the lock
+} while (true);
+```
+
+### Reader
+
+TODO
+
+## Dining-Philosophers Problem
+
+![](./img/dining-philosophers-problem.png)
+
+- If all philosophers pick up one chopstick at the same time, all of them will wait for the second one forever
+  - Deadlock!
+- No deadlock is possible, but starvation is possible
+  - A complex solution is required to solve this!
+
+TODO
