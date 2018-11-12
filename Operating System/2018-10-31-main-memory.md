@@ -92,3 +92,21 @@ EAT = <Hit Ratio> x <Time to access memory> + <Miss Ratio> x <Time to access mem
 - **Hierarchical Page Table**
   - Split virtual address into multiple parts
   - Use multiple level page tables
+- **Hashing Page Table**
+  - Common in address space > 32 bits
+- **Inverted Page Table**
+  - One entry for each frame of physical memory
+  - One table for all processes
+    1. PID
+    2. Page number
+    3. The index is the _frame number_
+  - A search in the table takes place, which is inefficient
+  - Shared memory is not convenient to implement
+
+## Swapping
+
+- **Thrashing**: the kernel spends all CPU time to just moving in and out of RAM from and to the hard disk
+
+### Swapping with Paging
+
+In Chapter 10!
