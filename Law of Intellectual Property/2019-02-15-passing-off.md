@@ -58,7 +58,7 @@ Types of tort:
 The above can also be summarized as the **classic trinity**:
 
 1. The **goodwill** of the plaintiff(原告)
-2. **Misrepresentation** by D
+2. **Misrepresentation** by defendent(被告)
 3. The **likelihood of damages**
 
 ## Goodwill
@@ -71,5 +71,19 @@ Goodwill means that the goods have **particular identifying features or specific
 
 In a passing off action, a plaintiff has to **prove**:
 
-- The existence of a business in which there is goodwill or reputation
-- That goodwill or reputation resides in the exclusive association of the distinctive name, mark, or other indicia(标识) relied on by the business
+- The existence of a business in which **there is goodwill or reputation**
+- That **goodwill or reputation resides** in the exclusive association of the distinctive name, mark, or other indicia(标识) relied on by the business
+
+For other infringement, like trademark, no proving is needed.
+
+## Badge of Recognition
+
+> Law of passing off is **wide enough** to encompass other **descriptive material**, such as
+>
+> - slogans
+> - visual images
+> - ...
+>
+> which radio, television or newspaper advertising campaigns can lead the market to associate with a plaintiff's product, provided always that such test is whether the product has derived from the advertising a distinctive character which the market recognises.
+>
+> -- Lord Scarman, _Cadbury-Schweppes Pty Ltd v. The Pub Squash Co Ltd_
