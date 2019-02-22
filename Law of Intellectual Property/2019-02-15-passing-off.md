@@ -76,7 +76,7 @@ In a passing off action, a plaintiff has to **prove**:
 
 For other infringement, like trademark, no proving is needed.
 
-## Badge of Recognition
+### Badge of Recognition
 
 > Law of passing off is **wide enough** to encompass other **descriptive material**, such as
 >
@@ -84,6 +84,32 @@ For other infringement, like trademark, no proving is needed.
 > - visual images
 > - ...
 >
-> which radio, television or newspaper advertising campaigns can lead the market to associate with a plaintiff's product, provided always that such test is whether the product has derived from the advertising a distinctive character which the market recognises.
+> which radio, television or newspaper advertising campaigns can lead the market to associate with a plaintiff's product, provided always that such test is whether the product has derived from the advertising a **distinctive** character which the market recognises.
 >
 > -- Lord Scarman, _Cadbury-Schweppes Pty Ltd v. The Pub Squash Co Ltd_
+
+**Distinctiveness:** unusual, fanciful things (e.g. bottles, cigars, colored capsules), can be in the following categories:
+
+- Product name
+  - _See: Bollinger v. Costa Brava Wine Co. Ltd, "Spanish Champagne" case_
+- Advertising
+- Color
+- Packaging
+- Shape
+
+## Misrepresentation
+
+Plaintiffs must show that:
+
+1. Defendents are **causing** _at least_ the **likelihood of confusion** among a significant portion of the relevant public. This may be done by:
+  - imitating a mark or name,
+  - or by supplying goods or services to an order which uses the mark or name.
+2. Defendents are **responsible for at least some ultimate confusion** in the mark or name of a product earmarked for sale or distribution.
+  - When the goods or services offered by both plaintiffs and defendents are the same or are very similar, plaintiffs will _almost always_ suffer damage from passing off.
+
+It is not enough to show that there has been confusion. Before it is actionable, the **confusion must be proved to be caused by a misrepresentation** by the defendent that his goods or services are those of the plaintiff.
+
+See:
+
+- _Marengo v. Daily Stretch & Sunday Graphic Ltd, "Kem & Kim" case_
+- _Tsit Wing (Hong Kong) Co Ltd v. TWG Tea (HK) Co Ltd, "TWG" case_
