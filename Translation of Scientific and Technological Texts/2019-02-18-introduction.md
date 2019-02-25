@@ -33,6 +33,13 @@ Text types can be categorized by their functions:
 | Language dimension
 -->
 
+- **Informative**
+  - academic, technological, etc
+- **Expressive**
+  - literacy, novel, etc
+- **Operative**
+  - specification etc
+
 ## Differences Between English and Chinese
 
 - English: **Hypotaxis (形合)**
@@ -49,3 +56,15 @@ Text types can be categorized by their functions:
 - Strive for clarity and brevity
   - wide usage of terminology
   - usually include abbreviations / acronym
+
+## Strategies of Translation
+
+- Diction
+- Conversion
+- Omission
+- Amplification (增补)
+- Transliteration (音译)
+- Division
+- Negation
+- Domestication (归化)
+- Foreignisation (异化)
