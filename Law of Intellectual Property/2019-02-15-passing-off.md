@@ -113,3 +113,18 @@ See:
 
 - _Marengo v. Daily Stretch & Sunday Graphic Ltd, "Kem & Kim" case_
 - _Tsit Wing (Hong Kong) Co Ltd v. TWG Tea (HK) Co Ltd, "TWG" case_
+
+## Intention to Deceive
+
+See:
+
+- _Harrods Ltd v. Harrodian School Ltd, "Harrodian" case_
+  - no evidence showing public confusion between the two names
+
+To prove a **likelihood of damage**, the following condition need to be shown:
+
+- Direct **competition**
+- **Common field** of activity
+- Undesirable **association**
+
+Without above, passing off cannot hold.
