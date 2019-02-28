@@ -49,6 +49,8 @@
 
 ### Contents :: Functional Requirements
 
+> What software should **do**
+
 - Describing **functionality** _or_ system **services**
   - functional user requirements: behaviors, I/O
   - functional system requirements: system services in detail
@@ -60,6 +62,8 @@
 - Inconsistent
 
 ### Contents :: Non-Functional Requirements
+
+> What software should **be (like)**
 
 - Specifying system **properties** _and_ **constraints**
   - **Product** requirements
