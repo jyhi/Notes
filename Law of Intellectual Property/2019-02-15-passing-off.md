@@ -120,11 +120,34 @@ See:
 
 - _Harrods Ltd v. Harrodian School Ltd, "Harrodian" case_
   - no evidence showing public confusion between the two names
+  - but _erosion of distinctiveness_ exists (see below)
+
+## Likelihood of Damage
 
 To prove a **likelihood of damage**, the following condition need to be shown:
 
 - Direct **competition**
 - **Common field** of activity
+  - see: _Stringfellow v. McCain Foods (GB) Ltd, "Stringfellows" (SF) nightclub & chip case_
 - Undesirable **association**
 
 Without above, passing off cannot hold.
+
+### 3 Types of Damage
+
+1. **Diversion** of damage
+  1. both plaintiff and defendent are in the same trade
+  2. there is diversion of trade from the plaintiff to the defendent
+  3. customers who would buy products from the plaintiff go to the defendent instead
+2. Damage of **reputation**
+  1. defendent sells higher-class goods as lower-class ones
+3. Damage by association leading to a **dilution** of reputation
+
+## Remedies
+
+- Injunction
+- _or_ Damages
+- _or_ Account of profits
+- _or_ Delivery up
+
+See: _Tam Wing Lun v. Hang Mei Records, "Cover version" case_
