@@ -80,7 +80,7 @@ Use cases should **focus on _goals_** rather than _processes_. Good use cases sh
       - e.g. exception handling
   - **"Inheritance"**
     - _dashline with backward empty arrow_ (A \<|-- B)
-      - but can in any direction based on precedence
+      - but can be in any direction based on precedence
     - some use cases that **share a superset** use case
       - e.g. display book info... in HTML... in plain text
 
