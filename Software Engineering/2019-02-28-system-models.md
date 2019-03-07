@@ -72,11 +72,11 @@ Use cases should **focus on _goals_** rather than _processes_. Good use cases sh
 - Between _use cases_:
   - **"Include"**
     - _dashline with forward arrow_ (A -- include -> B)
-    - some use cases that **share common parts**
+    - some use cases that **share common parts (necessarily)** _include_ them to avoiding duplication
       - e.g. authentication
   - **"Extend"**
     - _dashline with forward arrow_ (A -- extend -> B)
-    - some use cases that **can be applied** to other ones
+    - some use cases that **can be applied (conditionally)** to other ones
       - e.g. exception handling
   - **"Inheritance"**
     - _dashline with backward empty arrow_ (A \<|-- B)
