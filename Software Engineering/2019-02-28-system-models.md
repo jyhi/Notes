@@ -126,3 +126,33 @@ Describing overall function of the system:
 | State 1 | ------------------------------> | State 2 |
 +---------+                                 +---------+
 ```
+
+### Data-Flow Model
+
+- Describe how **data transformed** as they move through the system
+- Describe what **functions** transform the data flow
+- _Structured analysis method (DeMarco 1978)_ is used
+
+```
+         +-------- System --------+
+-- In -> | -> # -> # ->...-> # -> | -- Out ->
+         |      d1   d2   dn      |
+         +------------------------+
+```
+
+## Data Model
+
+- **Entity-Relation-Attribute** model (Peter Chen, 1976)
+  - widely used in database management
+  - semantic data model
+  - data dictionary
+
+### Notation
+
+```
++----------+   Relationship   +----------+
+| Entity 1 | ---------------- | Entity 2 |
++----------+  m            n  +----------+
+```
+
+where **m >= 0, n >= 0, m and n cannot be 0 at the same time**.
