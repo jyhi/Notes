@@ -6,7 +6,7 @@ Copyright is an _intangible_ right which has a **separate subsistence** from the
 
 A subject matter can be protected with
 
-1. Must be **"work"** (not ideas)
+1. Must be **"work" (not (new) ideas)**
 2. Must be in the following **9** categories: <!-- ??? -->
   1. Sound recordings
   2. Films
@@ -18,6 +18,12 @@ A subject matter can be protected with
   7. Dramatic work
   8. Musical work
   9. Artistic work
+
+**Original != Unique**: originality is more concerned with the manner in which the work was created and originated from the author or creator, with the following involved:
+
+- **skill**
+- **judgement**
+- **labor**
 
 Owner of copyright has the **exclusive right** to do the following:
 
@@ -33,3 +39,7 @@ Copyright protects **expression of ideas**, _not ideas per se_.
 
 - See: _Walter v. Lane case_
   - written expressions were protected, not ideas or spoken words
+- **Negative right** preventing others making copies of work of an author
+- **Partial monopoly** (a number of **exceptions** are made)
+
+In a single piece of work, **different parts can be owned by different people** (e.g. movies, including sound, film, theme song, ...)
