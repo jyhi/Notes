@@ -6,18 +6,27 @@ Copyright is an _intangible_ right which has a **separate subsistence** from the
 
 A subject matter can be protected with
 
-1. Must be **"work" (not (new) ideas)**
-2. Must be in the following **9** categories: <!-- ??? -->
-  1. Sound recordings
-  2. Films
-  3. Broadcasts
-  4. Cable programmes
-  5. Typographical arrangements of published editions
-3. Must be **original** if it is:
-  6. Literacy work
-  7. Dramatic work
-  8. Musical work
-  9. Artistic work
+- Must be **"work" (not (new) ideas)**
+- Must be in the following **9** categories: <!-- ??? -->
+  - Sound recordings
+  - Films
+  - Broadcasts
+  - Cable programmes
+  - Typographical arrangements of published editions
+- Must be **original** if it is:
+  - Literacy work
+    - compilation of data (e.g. tables, figures)
+    - company program
+    - _prepatory design material_ for a computer program
+      - literacy work includes computer program, but there is no definition of computer program
+    - books (poems, essays, ...)
+    - unpublished manuscript
+    - newspaper article
+    - telephone directories
+    - advertising catalogue
+  - Dramatic work
+  - Musical work
+  - Artistic work
 
 **Original != Unique**: originality is more concerned with the manner in which the work was created and originated from the author or creator, with the following involved:
 
