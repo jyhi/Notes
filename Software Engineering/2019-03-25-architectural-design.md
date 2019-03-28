@@ -52,3 +52,9 @@
 - **Event-based model**
   - Broadcast model
   - Interrupt-driven model
+
+## MVC Model
+
+- **Model**: data representation
+- **View**: data display
+- **Controler**: interface between _Model_ and _View_
