@@ -52,3 +52,61 @@ Copyright protects **expression of ideas**, _not ideas per se_.
 - **Partial monopoly** (a number of **exceptions** are made)
 
 In a single piece of work, **different parts can be owned by different people** (e.g. movies, including sound, film, theme song, ...)
+
+## ...
+
+...
+
+## Authorship
+
+**Authorship** and **ownership** are involved in copyright.
+
+- sound recording -> **producer**
+- film -> **producer and principal director**
+- typographical arrangement of a published edition -> **publisher**
+- digital version of L/D/M/A -> **person who takes arrangements necessary**
+
+_Author_ of a work is **the 1st owner**, with exceptions:
+
+- commissioned work
+- employee work, subjecting to:
+  - any **agreement** to the contrary
+  - exploitation of work is **not reasonably contemplated (worked)** by the employee
+
+## Duration of Copyright
+
+Copyright in L/D/M/A expires at the end of a period of **50 years from the end of the calendar year in which the author dies**.
+
+## Infringement
+
+- copy of work
+- issue copies of work to the public
+- rent or lend copies of work to the public
+- **perform** work to the public
+- communicate work to the public
+- make an adaptation of work
+
+To determine infringement, **3-stage test** is performed:
+
+1. Identify object **similarities**
+2. Decide whether similarities are the result of **independent creation or copying**
+3. If copied, whether a **subtantial part** has been taken
+
+### Primary Infringement
+
+**Reproduction of a copyrighted work.**
+
+- the copying of work must be a **substantial reproduction**:
+  - originality
+  - **particular feature(s)**
+
+#### Defences to Primary Infringement
+
+- Give consent (permission)
+- Implied license
+- Research or private study
+- **Fair use:** criticism, review or news reporting
+
+### Secondary Infringement
+
+**Importing or exporting or selling or possessing or distributing an infringing copy.**
