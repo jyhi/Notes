@@ -54,6 +54,39 @@ S.11(5): a trademark shall not be registered if:
 
 S.11(6): a trademark shall not be registered if it consists of or contains the **national or regional flags, emblems or their designs**
 
+### Relative Grounds
+
+Under the following circumstances, the mark cannot be registered:
+
+| Mark      | Good / Service |
+| --------- | -------------- |
+| identical | identical      |
+| identical | similar        |
+| similar   | identical      |
+| similar   | similar        |
+
+S.12(1): A trademark should not be registered if:
+
+- the trademark is **identical** to an earlier work
+- the goods or services for which the application for registration is made are **identical** to those for which earlier mark is protected
+
+S.12(2): A trademark shall not be registered if:
+
+- _S.12(1)_
+- the use of the trademark in relation to those goods or services is likely to **cause confusion** on the part of the public
+
+S.12(3): A trademark shall not be registered if:
+
+- _S.12(2)_
+
+In determining whether 2 marks are similar, the following factors are relevant:
+
+- how the words **look and sound**
+- the goods to which the marks were applied
+- the **nature and kind of customer**
+- the **surrounding circumstances**
+- what would be likely to happen if both marks were used
+
 ### Exceptions
 
 - **saving provision** (S.11(2)): a trademark can _still_ be registered if it has, before the date of application for registration, in fact **acquired a distinctive character**, even though it fails to satisfy the requirements of _absolute grounds_
