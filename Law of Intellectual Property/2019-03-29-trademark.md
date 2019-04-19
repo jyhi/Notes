@@ -87,6 +87,16 @@ In determining whether 2 marks are similar, the following factors are relevant:
 - the **surrounding circumstances**
 - what would be likely to happen if both marks were used
 
+S.12(4): (**Protecing well-known or famous trademark**) Subjecting to subsection 6, a trademark which is:
+
+-	identical or similar to an earlier trademark
+-	proposed to be registered for goods and services which are not identical or similar to 	those for which the earlier trademark is protected
+
+shall not be registered if...
+
+- the earlier trademark is **entitled to protection under the Paris Convention as a well-known trademark** and the use of the latter trademark
+- would take unfair advantage of, or be detrimental to, the distinctive character or repute of the earlier trademark
+
 ### Exceptions
 
 - **saving provision** (S.11(2)): a trademark can _still_ be registered if it has, before the date of application for registration, in fact **acquired a distinctive character**, even though it fails to satisfy the requirements of _absolute grounds_
@@ -109,3 +119,20 @@ In determining whether 2 marks are similar, the following factors are relevant:
 - Composite mark (word mark integrated with a device, logo, or other decorative element)
 - What whose purpose is to make word mark more distinctive
 - Prince Sovereign and Device trademark
+
+## Honest Concurrent Use
+
+S.13(1): The absolute and relative grounds cannot prevent a mark from being registered if:
+
+- there has been an _Honest Concurrent Use_ of the mark, or
+- by reason of other special circumstances, it is proper for the mark to be registered
+
+### Determining Whether A Use is Honest
+
+- the **likelihood of confusion** that may arise from the use of both marks
+- whether the original choice of the mark used was honest
+- **length of time** that the second mark was in use, and the longer the better
+- whether there were any instances where actual confusion was proved
+- the **size of the business** of the second company
+
+See: _蓮香茶樓及餅家 v. 廣州飲食服務企業集團有限公司_ case
