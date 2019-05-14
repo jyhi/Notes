@@ -26,6 +26,10 @@ S.2(1): _design_ means feature of:
 
 The **aesthetic value** is "only judged by eye".
 
+| Exclusively Aesthethic | Exclusively Functional | Aesthetic and Functional |
+| ---------------------- | ---------------------- | ------------------------ |
+| Registrable            | **Not** Registrable    | Registrable              |
+
 ## Difference From Patent and Copyright
 
 Registered Design Ordinance, S.2(1):
@@ -53,10 +57,13 @@ S.2(1):
 - new design
 - design for article(s)
 
-S.5(2): **New** means:
+S.5(2):
 
-- not the same as a prior filing
-- not the same as a prior registration
+- A design shall not be registered unless it is **new** or **original**.
+- New or original means:
+  - not the same as a prior registration (of patent)
+  - not the same as a prior user (other different kinds...)
+  - not the same as a prior _"common general knowledge"_
 
 S.6(1): If the design is not material (appearence is not cared by people), it is **not** registrable.
 
