@@ -62,3 +62,15 @@ Responsible for collecting, maintaining, and distributing the organization's kno
 ### Measuring Information Technology's Success
 
 **Key performance indicator (KPI)**: measures that are tied to business drivers.
+
+Often involves a trade-off between the two metrics:
+
+- **Efficiency** IT metric
+  - throughput
+  - transaction speed
+  - response time
+  - availability, accuracy, ...
+- **Effectiveness** IT metric
+  - goals, strategies, objectives
+  - usability
+  - customer satisfaction
