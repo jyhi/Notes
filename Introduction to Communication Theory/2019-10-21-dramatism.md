@@ -16,10 +16,10 @@ People use these perspectives from Burke to **analyse public communication:**
 
 ## Dramatistic Pentad
 
-- **Agency:** a _context_.
+- **Scene:** a _context_.
 - **Act:** _what_ was done?
-- **Scene:** _who_ did it?
-- **Agent:** _how_ did they do it?
+- **Agent:** _who_ did it?
+- **Agency:** _how_ did they do it?
 - **Purpose:** what's the _purpose_?
 
 ## Guilt-Redemption Cycle
