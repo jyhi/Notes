@@ -23,7 +23,7 @@
 
 > Is it worth the effort?
 
-One can only examile a **limited number of ideas** at a time.
+One can only examine a **limited number of ideas** at a time.
 
 - More elaboration: highly ego-involved
 - Less elaboration: often irrelevant to the topic
