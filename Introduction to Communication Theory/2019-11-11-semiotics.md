@@ -9,9 +9,15 @@ Goal of semiotics / semiology:
 
 Refer to [Symbolic Interaction](./2019-09-16-symbolic-interaction.md): _Sign_
 
+## Dydatic Model
+
 ## Notions
 
 1. A sign does not stand on its own: **it's a part of a system**.
 2. Signs are **culturally different**.
 3. Signs **transition**.
     - Sign of the first system may become the signifier of the second.
+
+### Denotation
+
+### Connontation
