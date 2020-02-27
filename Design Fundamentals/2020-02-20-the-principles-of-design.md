@@ -30,9 +30,10 @@
 ## Basic Elements
 
 - **Line**
-    - Weight, color, style, ...
+    - Pay attention to: weight, color, texture, style
 - **Shape**
     - Geometric
     - Organic
 - **Form （3-D Shape)**
 - **Texture**
+- **Balance**
