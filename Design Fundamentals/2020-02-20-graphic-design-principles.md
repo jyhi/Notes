@@ -22,10 +22,10 @@
 
 ## Proximity
 
-- **Positive space (实体)**
+- **Positive space (实体) / Figure**
   - Items relating to each other should be **grouped together**, so that they become **one visual unit**
   - Helps organizing information and reduces cluttering
-- **Negative space (虚体, breathing room)**
+- **Negative space (虚体, breathing room) / Ground**
   - Spaces, ...
   - Important too
 
