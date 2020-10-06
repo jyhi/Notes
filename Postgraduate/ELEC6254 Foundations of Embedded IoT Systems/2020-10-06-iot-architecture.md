@@ -56,7 +56,7 @@ Could mean that they have a full IP network connection to / from the Internet.
 
 - Wi-Fi / Ethernet
 - LPWAN (Low Power Wide Area Networks)
-  - Lo6WAN (IPv6 ones)
+  - 6LoWPAN (IPv6 ones)
 - Topology
   - starts
   - meshes
