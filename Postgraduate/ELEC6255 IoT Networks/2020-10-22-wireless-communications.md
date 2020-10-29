@@ -42,3 +42,21 @@ Refer to the slides:
   - https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem
 - Analogue-to-Digital Conversion
 - Digital-to-Analogue Conversion
+- **Euler's Formula**
+- Amplitude Modulation
+- Quadrature Amplitude Modulation
+- ...
+
+## Modulation
+
+Modulation transforms the 0 frequency (baseband signal) to a higher frequency (passband signal).
+
+- We use a higer frequency because **we want to use a smaller antenna.**
+
+Fading Channel: when environment changes, the signal strength varies (fades) from time to time.
+
+## Channel Noise
+
+**Additive White Gaussian Noise (AWGN):** Noise added with the probability of Gaussian (Normal) Distribution.
+
+Getting rid of the background noise: add a low-pass filter on the needed band.
