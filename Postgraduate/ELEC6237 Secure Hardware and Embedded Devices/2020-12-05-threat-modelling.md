@@ -4,7 +4,6 @@
 
 Threat modelling should take place in the early stages of product development cycle, with detailed documentation of potential threats be the output of it.
 
-
 ## Threat Modelling Cycle
 
 - Model
@@ -17,12 +16,12 @@ Threat modelling should take place in the early stages of product development cy
     - **data storage - solid double line**
 - Identify Threats
   - **_STRIDE_:** threats - properties
-    - Spoofing (冒用) - authentication
-    - Tampering (篡改) - integrity
-    - Repudiation (抵赖) - non-repudiation
-    - Information Disclosure - confidentiality
-    - Denial of Service - availability
-    - Elevation of Privilege - authorisation
+    - **Spoofing (冒用)** - authentication
+    - **Tampering (篡改)** - integrity
+    - **Repudiation (抵赖)** - non-repudiation
+    - **Information Disclosure** - confidentiality
+    - **Denial of Service** - availability
+    - **Elevation of Privilege** - authorisation
 - Migigate
   - one of the following is applied to each identified threats:
     - **use** standard defences and countermeasures
@@ -37,4 +36,7 @@ Threat modelling should take place in the early stages of product development cy
 - Develop a number of **use cases**
 - Define **external entities** and verify any assumptions made about them
 - Identify **assets** and **security objectives** one want to achieve
-  - assets: functionalities, sensors, etc.
+  - assets:
+    - resources and data saved
+    - sensors, system components (e.g. storage)
+    - interfaces (e.g. debug interface)
