@@ -29,3 +29,7 @@ The best way to practically transmit secure data safely is to:
 - Frequency analysis
 - "Crib": a known sequence of letters or words, e.g. _q is almost always followed by u_
 - Make guesses
+
+## Algorithms
+
+Refer to the slides.
