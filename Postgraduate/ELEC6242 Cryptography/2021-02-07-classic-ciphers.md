@@ -33,3 +33,30 @@ The best way to practically transmit secure data safely is to:
 ## Algorithms
 
 Refer to the slides.
+
+## Steganography
+
+- Steganos: Secret
+- -graphy: writing
+
+(n. 隐写术)
+
+## Difference Between Cryptography and Steganography
+
+- _Cryptography_ renders data **unreadable**
+- _Steganography_ eliminates the **existence** of data
+
+## Principles
+
+- **Cover Object**: an original, unaltered medium in any format
+- **Stego-object**: Cover object with message hidden into (usually using a key)
+
+A stego-object should be indistinguishable from the cover object used.
+
+## Textual Steganography
+
+Message hidden in formatted texts.
+
+## Visual Steganography
+
+Message hidden in images.
